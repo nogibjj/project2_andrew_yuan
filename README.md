@@ -6,7 +6,7 @@ In the project, I fetch a dataset from Kaggle, named "COVID -19 Coronavirus Pand
 
 ## Operations
 The small apllication supports two kinds of operations based on the user input in the command line.
-1. Show contries name 
+1. Show contry info of the given coutry name 
 2. Sort the data by the total cases column and print out top 30 countries name
 
 ## Usage
