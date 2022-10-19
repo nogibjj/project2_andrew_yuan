@@ -1,0 +1,32 @@
+Sort
+0             USA
+1           India
+2          France
+3          Brazil
+4         Germany
+5        S. Korea
+6              UK
+7           Italy
+8           Japan
+9          Russia
+10         Turkey
+11          Spain
+12        Vietnam
+13      Australia
+14      Argentina
+15    Netherlands
+16           Iran
+17         Mexico
+18      Indonesia
+19         Taiwan
+20       Colombia
+21         Poland
+22       Portugal
+23        Ukraine
+24        Austria
+25         Greece
+26       Malaysia
+27           DPRK
+28       Thailand
+29         Israel
+Name: Country, dtype: object

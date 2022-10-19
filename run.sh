@@ -8,15 +8,13 @@ echo "Enter the action you want to perform:
 1->show country info; 
 2->sort the dataset by total cases and return top 30 countries' name; "
 read mode
-declare -i n=1
-if [ $mode -eq $n]
+if [ $mode -eq 1 ]
 then
 echo "You want to show specific country info"
-read -p "Enter the country that you want to look at" countryName
-python3 app.py -d $countryName $fileName
-n =2 
-elif [$mode -eq $n]
+read -p "Enter the country that you want to look at: " countryName
+python3 app.py -d $countryName $fileName | tee output.txt
+elif [ $mode -eq 2 ]
 then
 echo "You want to sort the dataset by total cases"
-python3 app.py -s $fileName
+python3 app.py -s $fileName | tee output.txt
 fi
